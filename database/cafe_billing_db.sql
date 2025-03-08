@@ -116,29 +116,6 @@ INSERT INTO `products` (`id`, `category_id`, `name`, `description`, `price`, `st
 (4, 1, 'Fried Chicken Solo', 'Fried Chicken Solo w/ rice', 70, 1);
 
 -- --------------------------------------------------------
---rooms boking
-
-CREATE TABLE rooms (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    room_number VARCHAR(10) UNIQUE NOT NULL,
-    type VARCHAR(50) NOT NULL,
-    price DECIMAL(10,2) NOT NULL,
-    status ENUM('available', 'booked') DEFAULT 'available'
-);
-
-CREATE TABLE bookings (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    customer_name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL,
-    phone VARCHAR(15) NOT NULL,
-    room_id INT NOT NULL,
-    check_in DATE NOT NULL,
-    check_out DATE NOT NULL,
-    status ENUM('confirmed', 'pending', 'cancelled') DEFAULT 'pending',
-    FOREIGN KEY (room_id) REFERENCES rooms(id)
-);
-
------------------------------------------------------------
 
 --
 -- Table structure for table `system_settings`
