@@ -1,9 +1,9 @@
 Project: Hotel Management System using PHP/MySQLi with Source Code
 
-About The Hotel Management System is a simple PHP/MySQLi project that can help a certain hotel or restaurant to manage its customer's bills or order and receipt. This system stores the list of menus or products that the hotel or restaurant serves with their price, and the product list is organized by category. The hotel or restaurant will take the orders of their customers then the cashier or the order encoder can choose if either the customer will pay as they order or save the order first and pay later. To track the order of the customers, the hotel or restaurant will provide an order number per order, same as the common process of some fast-food, restaurant, or hotel. If the order was saved at first for later payment, the cashier or staff can simply navigate to the orders page then look for the order of the customer for the customer who asks to bill out. The hotel management system also generates a monthly sales report. The system has a simple calculator for payout transactions, which means the user will only input the amount tendered of the customer then the system will calculate the change of the customer.
+About
+The Hotel Management System is a simple PHP/MySQLi project that can help a certain hotel or restaurant to manage its customer's bills, room bookings, orders, and receipts. This system stores the list of menus or products that the hotel or restaurant serves with their price, and the product list is organized by category. The hotel or restaurant will take the orders of their customers then the cashier or the order encoder can choose if either the customer will pay as they order or save the order first and pay later. To track the order of the customers, the hotel or restaurant will provide an order number per order, same as the common process of some fast-food, restaurant, or hotel. If the order was saved at first for later payment, the cashier or staff can simply navigate to the orders page then look for the order of the customer for the customer who asks to bill out. The hotel management system also generates a monthly sales report. The system has a simple calculator for payout transactions, which means the user will only input the amount tendered of the customer then the system will calculate the change of the customer.
 
 Features:
-
 Login Page
 The page where the system admin or user submits their system credentials to access the data and functionalities of the hotel management system.
 
@@ -18,6 +18,9 @@ The page where the cashier, admin, or user will encode the orders of their custo
 
 Orders Page
 The page where the list of orders is listed and managed.
+
+Room Booking Page
+The page where customers can book rooms, check availability, and manage reservations.
 
 Sales Report Page
 The page where the monthly sales report is shown and ready to print.
